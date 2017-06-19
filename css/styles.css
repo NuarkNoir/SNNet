@@ -1,0 +1,94 @@
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.header{
+	background: #349886;
+	margin: 10px;
+	padding: 10px
+}
+
+.footer{
+	background: #0876B1;
+	margin: 10px;
+	padding: 10px;
+	text-align: center
+}
+
+.page-container{
+	background: #314D5B;
+	margin: 10px;
+	padding: 10px
+}
+
+.content{
+	background: #EEEEEE;
+	margin: 10px;
+	padding: 20px;
+	width: 100%
+}
+
+.navbar{
+	background: #EEEEEE;
+	margin: 10px;
+	padding: 10px
+}
+
+.navbar > .item {
+	padding: 5px
+}
+
+.logout {
+	text-decoration: none;
+	color: black;
+	padding: 0;
+	margin: 0;
+	padding: 5px
+}
+
+.logout:hover {
+	text-decoration: none;
+	color: black;
+	background: white;
+	border-radius: 15px;
+	transition: all 0.5s ease;
+}
+
+.navbar > .item:hover {
+	background: grey;
+	/*transition: all 0.5s ease;*/
+}
+
+body {
+	background: #253A47;
+}
+
+img.avatar {
+	width: 200px;
+	height: auto
+}
+
+.whois {
+	font-size: 20px;
+}
+
+.friend {
+	border-bottom: 1px double lightgrey;
+	border-top: 1px double lightgrey
+}
+
+.track {
+	border-bottom: 1px double lightgrey;
+	border-top: 1px double lightgrey
+}
